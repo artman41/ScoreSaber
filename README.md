@@ -16,3 +16,11 @@ Scores can be viewed at https://scoresaber.com
 
   1. Download the latest release of SaberScore from https://github.com/Umbranoxio/ScoreSaber/releases
   2. Extract the .zip file into `steamapps\common\Beat Saber`
+
+## Known Issues
+
+  * Small stutter after finishing a song
+  
+## Planned
+  * Integration with beatsaver.com
+  * In-Game leaderboard browser
