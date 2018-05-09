@@ -20,7 +20,9 @@ Scores can be viewed at https://scoresaber.com
 ## Known Issues
 
   * Small stutter after finishing a song
+  * Multi difficulty songs are bit iffy at the moment, but still generally work
   
 ## Planned
+  * Oculus support
   * Integration with beatsaver.com
   * In-Game leaderboard browser
