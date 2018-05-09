@@ -2,7 +2,7 @@
 An unofficial beatsaber leaderboard 
 *This mod only works for the Steam version of the game for now*
 
-Scores can be viewed at http://saberscore.com
+Scores can be viewed at https://scoresaber.com
 
 ## Installation Instructions
   1. Download the latest release of xyonico's BeatSaberSongInjector from here: https://github.com/xyonico/BeatSaberSongInjector/releases  
