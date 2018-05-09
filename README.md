@@ -1,4 +1,4 @@
-# SaberScore
+# ScoreSaber
 An unofficial beatsaber leaderboard 
 *This mod only works for the Steam version of the game for now*
 
