@@ -10,7 +10,7 @@ using UnityEngine;
 using UnofficialLeaderBoardPlugin;
 using Microsoft.VisualBasic;
 
-namespace SongLoaderPlugin
+namespace UnofficialLeaderBoardPlugin
 {
     public class Plugin : IPlugin
     {
