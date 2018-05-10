@@ -2,7 +2,9 @@
 An unofficial beatsaber leaderboard 
 *This mod only works for the Steam version of the game for now*
 
-Scores can be viewed at https://scoresaber.com
+Scores can be viewed **in game** or at https://scoresaber.com
+
+![Preview](https://i.imgur.com/GFKG8GH.png)
 
 ## Installation Instructions
   1. Download the latest release of xyonico's BeatSaberSongInjector from here: https://github.com/xyonico/BeatSaberSongInjector/releases  
@@ -17,12 +19,11 @@ Scores can be viewed at https://scoresaber.com
   1. Download the latest release of SaberScore from https://github.com/Umbranoxio/ScoreSaber/releases
   2. Extract the .zip file into `steamapps\common\Beat Saber`
 
-## Known Issues
-
-  * Small stutter after finishing a song
-  * Multi difficulty songs are bit iffy at the moment, but still generally work
+## Changelog
+  * Fixed difficulty sometimes being wrong
+  * Fixed stutter when uploading score, now smooth as butter!
+  * Added in-game leaderboard support!
   
 ## Planned
-  * Oculus support
+  * Oculus home support
   * Integration with beatsaver.com
-  * In-Game leaderboard browser
