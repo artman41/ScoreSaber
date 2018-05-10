@@ -23,6 +23,7 @@ Scores can be viewed **in game** or at https://scoresaber.com
   * Fixed difficulty sometimes being wrong
   * Fixed stutter when uploading score, now smooth as butter!
   * Added in-game leaderboard support!
+  * Fixed a bug when changing songs like a mad man on the main menu would cause a crash
   
 ## Planned
   * Oculus home support
