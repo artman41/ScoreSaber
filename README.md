@@ -20,10 +20,12 @@ Scores can be viewed **in game** or at https://scoresaber.com
   2. Extract the .zip file into `steamapps\common\Beat Saber`
 
 ## Changelog
-  * Fixed difficulty sometimes being wrong
+   * Fixed difficulty sometimes being wrong
   * Fixed stutter when uploading score, now smooth as butter!
   * Added in-game leaderboard support!
-  * Fixed a bug when changing songs like a mad man on the main menu would cause a crash
+  * Fixed Crashes
+  * Made the local players name glow blue in the leaderboards
+  * Fixed a rare bug that only seemed to affect a few people where scores wouldn't upload (thanks to Elijah#0069 on discord for helping with debugging)
   
 ## Planned
   * Oculus home support
