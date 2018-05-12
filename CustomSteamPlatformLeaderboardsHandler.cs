@@ -18,12 +18,13 @@ namespace UnofficialLeaderBoardPlugin
             if (leaderboadId.Contains("∎"))
             {
                 leaderboadId = FormatLeaderBoard(leaderboadId);
+
                 switch (scope)
                 {
                     case LeaderboardsModel.ScoresScope.AroundPlayer:
                         GetCustomScoreBehaviour.GetScore("http://scoresaber.com/getscores.php?id=" + leaderboadId + "&steamId=" + SteamUser.GetSteamID().m_SteamID.ToString(), completionHandler, leaderboadId, asyncRequest, OnGetScore);
                         break;
-                    case LeaderboardsModel.ScoresScope.Friends:
+                    case LeaderboardsModel.ScoresScope.Global:
                         GetCustomScoreBehaviour.GetScore("http://scoresaber.com/getscores.php?id=" + leaderboadId, completionHandler, leaderboadId, asyncRequest, OnGetScore);
                         break;
                 }
