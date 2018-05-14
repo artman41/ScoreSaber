@@ -1,6 +1,5 @@
 # ScoreSaber
 An unofficial beatsaber leaderboard 
-*This mod only works for the Steam version of the game for now*
 
 Scores can be viewed **in game** or at https://scoresaber.com
 
@@ -28,5 +27,4 @@ Scores can be viewed **in game** or at https://scoresaber.com
   * Fixed a rare bug that only seemed to affect a few people where scores wouldn't upload (thanks to Elijah#0069 on discord for helping with debugging)
   
 ## Planned
-  * Oculus home support
   * Integration with beatsaver.com
