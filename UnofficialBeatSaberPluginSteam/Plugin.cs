@@ -34,25 +34,6 @@ namespace UnofficialLeaderBoardPlugin
         {
 
         }
-
-        public void OnLevelWasLoaded(int level)
-        {
-        }
-
-        public bool loaded = false;
-        public void OnLevelWasInitialized(int level)
-        {
-
-            if (level != 1) return;
-            if (!loaded)
-            {
-                var leaderBoardsModel = PersistentSingleton<LeaderboardsModel>.instance;
-                ReflectionUtil.SetPrivateField(leaderBoardsModel, "_platformLeaderboardsHandler", new CustomSteamPlatformLeaderboardsHandler());
-                loaded = true;
-            }
-
-        }
-   
         
         public void OnUpdate()
         {
@@ -61,6 +42,25 @@ namespace UnofficialLeaderBoardPlugin
         public void OnFixedUpdate()
         {
 
+        }
+        
+        public bool loaded = false;
+        public void OnSceneLoaded(Scene scene, LoadSceneMode sceneMode) {
+            if (scene.buildIndex != 1) return;
+            if (!loaded)
+            {
+                var leaderBoardsModel = PersistentSingleton<LeaderboardsModel>.instance;
+                ReflectionUtil.SetPrivateField(leaderBoardsModel, "_platformLeaderboardsHandler", new CustomSteamPlatformLeaderboardsHandler());
+                loaded = true;
+            }
+        }
+        
+        public void OnSceneUnloaded(Scene scene) {
+            
+        }
+
+        public void OnActiveSceneChanged(Scene prevScene, Scene nextScene) {
+            
         }
     }
 }
